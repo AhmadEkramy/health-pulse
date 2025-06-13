@@ -1,73 +1,138 @@
-# Welcome to your Lovable project
+# 💖 Health Pulse – Personal Health Tracking Web App
 
-## Project info
+**Health Pulse** is a sleek, fully responsive personal health tracking platform built with **React**, **TypeScript**, and **Firebase**, styled using **Tailwind CSS** and **shadcn-ui**. It helps users track water intake, sleep, activity, heart metrics, and more — with beautiful animations, rich UI, and support for Arabic/English languages.
 
-**URL**: https://lovable.dev/projects/175953ac-1f10-488f-a008-b0fd9cfaf49c
+---
 
-## How can I edit this code?
+## ⚙️ Tech Stack
 
-There are several ways of editing your application.
+- **Frontend:**
+  - React + TypeScript
+  - Tailwind CSS
+  - Shadcn-UI
+  - Framer Motion for animations
+  - AOS.js / React Reveal for scroll animations
 
-**Use Lovable**
+- **Backend & Auth:**
+  - Firebase Authentication
+  - Firebase Firestore (Real-time DB)
+  - Firebase Storage (if needed for avatars)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/175953ac-1f10-488f-a008-b0fd9cfaf49c) and start prompting.
+#🌟 Key Features
+##✅ Authentication
 
-Changes made via Lovable will be committed automatically to this repo.
+    Sign Up / Login / Logout
 
-**Use your preferred IDE**
+    Firebase Auth with JWT
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+    EN/AR language toggle
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+##📊 Dashboard
 
-Follow these steps:
+    Summary of key health metrics (Steps, Calories, Heart Rate, etc.)
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+    Beautiful progress bars, circular indicators, charts
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+    Click into detailed pages for each metric
 
-# Step 3: Install the necessary dependencies.
-npm i
+##📄 Pages per Feature
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+##Each health metric has its own animated and interactive page:
 
-**Edit a file directly in GitHub**
+    💧 Water Tracking
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+    🏃 Activity Tracking
 
-**Use GitHub Codespaces**
+    😴 Sleep Monitoring
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+    📊 Reports
 
-## What technologies are used for this project?
+    🎯 Goals
 
-This project is built with:
+    ⏰ Reminders
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+    👟 Steps
 
-## How can I deploy this project?
+    ❤️ Heart Rate
 
-Simply open [Lovable](https://lovable.dev/projects/175953ac-1f10-488f-a008-b0fd9cfaf49c) and click on Share -> Publish.
+    🩸 Blood Sugar
 
-## Can I connect a custom domain to my Lovable project?
+    🫀 Blood Pressure
 
-Yes, you can!
+##All include:
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+    Data entry forms
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+    Real-time data sync with Firebase
+
+    Visual progress + analytics
+
+    Animations (Framer Motion, AOS.js)
+
+##🛠️ Settings Page
+
+    Profile Info
+
+    Theme, Units, Timezone
+
+    Language Toggle (RTL for Arabic)
+
+    Notification Preferences
+
+    Health Goals Customization
+
+##📦 Firebase Services Used
+
+    🔐 Authentication: User login/sign up
+
+    💾 Firestore: Realtime database for tracking data
+
+    ☁️ Storage (optional): Avatar upload, documents
+
+    🔔 Cloud Messaging (planned): Notifications and reminders
+
+##🧠 Animations & UI
+
+    Framer Motion for smooth transitions
+
+    AOS.js for scroll reveals
+
+    Tailwind + shadcn for responsive, modern, accessible UI
+
+    Hover glow effects, button transitions, SVG illustrations
+
+##🌐 Internationalization
+
+    Manual EN/AR toggle in navbar
+
+    Full RTL support for Arabic
+
+    i18n-ready components
+
+##📊 Data Visualizations
+
+    Bar and line charts (monthly tracking)
+
+    Circular goal indicators
+
+    Trend analysis & progress summaries
+
+##✅ To-Do & Improvements
+
+Add Firebase Cloud Functions for secure processing
+
+Implement notifications (stretching, hydration, etc.)
+
+Add dark mode toggle
+
+    Export reports to PDF
+
+##🧪 Testing
+
+    Unit tests with Vitest or Jest (planned)
+
+    Integration tests for Firebase services (WIP)
+
+📄 License
+
+MIT © 2025 - Health Pulse Team

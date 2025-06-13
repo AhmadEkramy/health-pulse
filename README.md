@@ -18,8 +18,8 @@
   - Firebase Firestore (Real-time DB)
   - Firebase Storage (if needed for avatars)
 
-#🌟 Key Features
-##✅ Authentication
+# 🌟 Key Features
+## ✅ Authentication
 
     Sign Up / Login / Logout
 
@@ -27,7 +27,7 @@
 
     EN/AR language toggle
 
-##📊 Dashboard
+## 📊 Dashboard
 
     Summary of key health metrics (Steps, Calories, Heart Rate, etc.)
 
@@ -35,7 +35,7 @@
 
     Click into detailed pages for each metric
 
-##📄 Pages per Feature
+## 📄 Pages per Feature
 
 ##Each health metric has its own animated and interactive page:
 
@@ -59,7 +59,7 @@
 
     🫀 Blood Pressure
 
-##All include:
+## All include:
 
     Data entry forms
 
@@ -69,7 +69,7 @@
 
     Animations (Framer Motion, AOS.js)
 
-##🛠️ Settings Page
+## 🛠️ Settings Page
 
     Profile Info
 
@@ -81,7 +81,7 @@
 
     Health Goals Customization
 
-##📦 Firebase Services Used
+## 📦 Firebase Services Used
 
     🔐 Authentication: User login/sign up
 
@@ -91,7 +91,7 @@
 
     🔔 Cloud Messaging (planned): Notifications and reminders
 
-##🧠 Animations & UI
+## 🧠 Animations & UI
 
     Framer Motion for smooth transitions
 
@@ -101,7 +101,7 @@
 
     Hover glow effects, button transitions, SVG illustrations
 
-##🌐 Internationalization
+## 🌐 Internationalization
 
     Manual EN/AR toggle in navbar
 
@@ -109,7 +109,7 @@
 
     i18n-ready components
 
-##📊 Data Visualizations
+## 📊 Data Visualizations
 
     Bar and line charts (monthly tracking)
 
@@ -117,7 +117,7 @@
 
     Trend analysis & progress summaries
 
-##✅ To-Do & Improvements
+## ✅ To-Do & Improvements
 
 Add Firebase Cloud Functions for secure processing
 
@@ -127,12 +127,12 @@ Add dark mode toggle
 
     Export reports to PDF
 
-##🧪 Testing
+## 🧪 Testing
 
     Unit tests with Vitest or Jest (planned)
 
     Integration tests for Firebase services (WIP)
 
-📄 License
+## 📄 License
 
 MIT © 2025 - Health Pulse Team
